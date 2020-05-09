@@ -9,8 +9,9 @@ public class SendEmail {
         String[] adjectives = {"happy", "joyful", "cheerful", "fun", "great"};
         String[] timePeriod = {"day", "week", "month", "year"};
         String[] goals = {"motivate yourself", "get inspired", "cheer up", "feel better", "stop crying", "fix your sleeping pattern", "repair your ruined relationships"};
-        String[] transitiveVerbs = {"write", "lend", "bake", "play", "buy", "donate", "read", "send", "teach", "get", "make", "take", "steal", "eat", "punch"};
+        String[] transitiveVerbs = {"email", "lend", "bake", "play", "buy", "donate", "read", "send", "teach", "get", "make", "take", "steal", "eat", "punch"};
         String[] nouns = {"cat", "child", "book", "cake", "truck", "car", "bed", "pillow", "sock", "pineapple"};
+        String[] goodbyes = {"goodbye", "good luck", "yours faithfully", "your sincerely", "regards", "kind regards", "love from", "from", "bye bye", "toodles"};
         Random random = new Random();
         int adjectivesIndex = random.nextInt(adjectives.length);
         int greetingsIndex = random.nextInt(greetings.length);
@@ -18,10 +19,12 @@ public class SendEmail {
         int goalsIndex = random.nextInt(goals.length);
         int nounsIndex = random.nextInt(nouns.length);
         int transitiveVerbsIndex = random.nextInt(transitiveVerbs.length);
+        int goodbyeIndex = random.nextInt(goodbyes.length);
         String greeting = greetings[greetingsIndex].substring(0, 1).toUpperCase() + greetings[greetingsIndex].substring(1, greetings[greetingsIndex].length()).toLowerCase() + ", " + name + "!";
         String openingSentence = "I hope you are having a " + adjectives[adjectivesIndex] + " " + timePeriod[timePeriodIndex] + ".";
         String content = "";
-        message += greeting + "\n\n" + openingSentence + "\n\nTo " + goals[goalsIndex] + ", " + transitiveVerbs[transitiveVerbsIndex] + " a " + nouns[nounsIndex] + "!";
+        String goodbye = goodbyes[goodbyeIndex];
+        message += greeting + "\n\n" + openingSentence + "\n\nTo " + goals[goalsIndex] + ", " + transitiveVerbs[transitiveVerbsIndex] + " a " + nouns[nounsIndex] + "!" + "\n\n" + goodbye.substring(0, 1).toUpperCase() + goodbye.substring(1, goodbye.length()).toLowerCase() + ",\nThe Happy Email Fairy";
         System.out.println(message);
         return message;
     }
