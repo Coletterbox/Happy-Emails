@@ -6,7 +6,7 @@ public class SendEmail {
     public String assembleMessage(String name) {
         String message = "";
         String[] greetings = {"greetings", "hello", "hi", "hey"};
-        String[] adjectives = {"happy", "joyful", "cheerful", "fortunate", "lucky"};
+        String[] adjectives = {"happy", "joyful", "cheerful", "fun", "great"};
         String[] timePeriod = {"day", "week", "month", "year"};
         String[] goals = {"motivate yourself", "get inspired", "cheer up", "feel better", "stop crying", "fix your sleeping pattern", "repair your ruined relationships"};
         String[] transitiveVerbs = {"write", "lend", "bake", "play", "buy", "donate", "read", "send", "teach", "get", "make", "take", "steal", "eat", "punch"};
