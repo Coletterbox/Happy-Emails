@@ -9,8 +9,8 @@ public class SendEmail {
         String[] adjectives = {"happy", "joyful", "cheerful", "fortunate", "lucky"};
         String[] timePeriod = {"day", "week", "month", "year"};
         String[] goals = {"motivate yourself", "get inspired", "cheer up", "feel better", "stop crying", "fix your sleeping pattern", "repair your ruined relationships"};
-        String[] transitiveVerbs = {"write", "lend", "bake", "play", "buy", "donate", "read", "send", "sing", "teach", "get", "make", "take", "steal"};
-        String[] nouns = {"cat", "child", "book", "song", "cake", "truck", "car", "bed", "pillow", "sock", "pineapple"};
+        String[] transitiveVerbs = {"write", "lend", "bake", "play", "buy", "donate", "read", "send", "teach", "get", "make", "take", "steal", "eat", "punch"};
+        String[] nouns = {"cat", "child", "book", "cake", "truck", "car", "bed", "pillow", "sock", "pineapple"};
         Random random = new Random();
         int adjectivesIndex = random.nextInt(adjectives.length);
         int greetingsIndex = random.nextInt(greetings.length);
