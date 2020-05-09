@@ -1,6 +1,6 @@
 # Something About Selenium and Emails
 
-![](https://github.com/Coletterbox/Happy-Emails/blob/master/rat-driving-car-760x380.jpg?raw=true)
+![](https://github.com/Coletterbox/Happy-Emails/blob/master/Sample%20output.png?raw=true)
 
 ## What is this supposed to do?
 It runs a script that sends a motivational email to your email address. Well, my email address for now.
@@ -16,3 +16,5 @@ Clone the project, then add a file called 'EmailAddressContainer.java' into the 
     }
 ```
 (Type an email address in between the quotation marks.)
+
+![](https://github.com/Coletterbox/Happy-Emails/blob/master/rat-driving-car-760x380.jpg?raw=true)
