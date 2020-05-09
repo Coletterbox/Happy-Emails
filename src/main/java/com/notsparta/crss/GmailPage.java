@@ -24,4 +24,16 @@ public class GmailPage {
     public static void enterEmailAddress() {
         enterTextIntoBox(webDriver, EmailAddressContainer.emailAddress, "identifierId");
     }
+
+    public static void clickButton(WebDriver webDriver, String buttonID) {
+        webDriver.findElement(By.id(buttonID)).click();
+    }
+
+//    public static void enterPassword() {
+//        enterTextIntoBox(webDriver, EmailAddressContainer.password, "");
+//    }
+
+    public static void clickNextButton() {
+        clickButton(webDriver, "identifierNext");
+    }
 }

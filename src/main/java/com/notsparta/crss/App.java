@@ -11,6 +11,7 @@ public class App
         sendEmail.assembleMessage("Bob");
         setup();
         GmailPage.enterEmailAddress();
+        GmailPage.clickNextButton();
     }
 
     public static void setup() {

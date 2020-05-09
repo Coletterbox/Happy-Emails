@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/GmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/GmailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/notsparta/crss/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/notsparta/crss/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/notsparta/crss/EmailAddressContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/notsparta/crss/EmailAddressContainer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/notsparta/crss/GmailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/notsparta/crss/GmailPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
