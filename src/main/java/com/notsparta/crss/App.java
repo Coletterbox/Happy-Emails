@@ -9,8 +9,8 @@ public class App
     {
         SendEmail sendEmail = new SendEmail();
         sendEmail.assembleMessage("Bob");
-
         setup();
+        GmailPage.enterEmailAddress();
     }
 
     public static void setup() {
