@@ -9,12 +9,16 @@ public class App
     {
         SendEmail sendEmail = new SendEmail();
         sendEmail.assembleMessage("Bob");
-        setup();
+        setUp();
         GmailPage.enterEmailAddress();
         GmailPage.clickNextButton();
+        GmailPage.enterPassword();
+        GmailPage.clickPasswordNextButton();
+        // for testing:
+//        GmailPage.clickForgotPassword();
     }
 
-    public static void setup() {
+    public static void setUp() {
         WebDriver webDriver = new ChromeDriver();
         new GmailPage(webDriver);
     }
