@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01eacc4b-18cf-414a-8676-f54811d5c540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/GmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notsparta/crss/GmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/notsparta/crss/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/notsparta/crss/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/notsparta/crss/SendEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/notsparta/crss/SendEmail.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +30,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Colette Shaw\Happy-Emails" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/notsparta/crss" />
@@ -43,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.notsparta.crss.App" />
       <module name="HappyEmails" />
@@ -57,9 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.notsparta.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.notsparta.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.notsparta.crss.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
