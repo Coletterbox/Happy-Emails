@@ -2,6 +2,9 @@ package com.notsparta.crss;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -56,9 +59,9 @@ public class GmailPage {
         GmailPage.clickButton(webDriver, "forgotPassword");
     }
 
-    public static void enterPassword() {
-        enterTextIntoBox(webDriver, EmailAddressContainer.password, "password");
-    }
+//    public static void enterPassword() {
+//        enterTextIntoBox(webDriver, EmailAddressContainer.password, "password");
+//    }
 
 //    public static void enterPassword() {
 //        enterTextIntoBoxByName(webDriver, EmailAddressContainer.password, "password");
@@ -70,6 +73,19 @@ public class GmailPage {
 
 //    public static void enterPassword() {
 //        enterTextIntoBoxByXpath(webDriver, EmailAddressContainer.password, "//span[@class='whsOnd zHQkBf']");
+//    }
+
+    public static void enterPassword() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(webDriver, 20);
+        WebElement password = webDriver.findElement(By.xpath("//input[@name='password']"));
+//        wait.until(ExpectedConditions.elementToBeClickable(password));
+        Thread.sleep(3000);
+        webDriver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
+        enterTextIntoBoxByXpath(webDriver, EmailAddressContainer.password, "//span[@class=\"whsOnd zHQkBf\"]");
+    }
+
+//    public static void enterPassword() {
+//        enterTextIntoBoxByXpath(webDriver, EmailAddressContainer.password, "//span[@class=\"whsOnd\"]");
 //    }
 
     public static void clickPasswordNextButton() {
