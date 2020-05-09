@@ -12,9 +12,9 @@ public class SendEmail {
         int adjectivesIndex = random.nextInt(adjectives.length);
         int greetingsIndex = random.nextInt(greetings.length);
         int timePeriodIndex = random.nextInt(timePeriod.length);
-        message += greetings[greetingsIndex].substring(0, 1).toUpperCase() + greetings[greetingsIndex].substring(1, greetings[greetingsIndex].length()).toLowerCase() + ", " + name + "!"
-                + "\n"
-                + "I hope you are having a " + adjectives[adjectivesIndex] + " " + timePeriod[timePeriodIndex] + ".";
+        String greeting = greetings[greetingsIndex].substring(0, 1).toUpperCase() + greetings[greetingsIndex].substring(1, greetings[greetingsIndex].length()).toLowerCase() + ", " + name + "!";
+        String openingSentence = "I hope you are having a " + adjectives[adjectivesIndex] + " " + timePeriod[timePeriodIndex] + ".";
+        message += greeting + "\n\n" + openingSentence;
         System.out.println(message);
         return message;
     }
